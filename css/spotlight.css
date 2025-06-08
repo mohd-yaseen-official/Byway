@@ -1,0 +1,235 @@
+#spotlight {
+    height: calc(100vh - 64px);
+}
+#spotlight section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#spotlight section.wrapper div.left {
+    width: 48%;
+}
+#spotlight section.wrapper div.left h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    max-width: 70%;
+    margin-bottom: 16px;
+    color: #0f172a;
+}
+#spotlight section.wrapper div.left p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #334155;
+    max-width: 87%;
+    margin-bottom: 24px;
+}
+#spotlight section.wrapper div.left a.button {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #fff;
+    display: inline-block;
+}
+
+#spotlight div.right {
+    width: 48%;
+    position: relative;
+    height: 100%;
+}
+#spotlight div.right div.circle-container {
+    position: absolute;
+    left: 114px;
+    top: 106px;
+    width: 222px;
+    height: 300px;
+}
+#spotlight div.right div.circle-container div.circle {
+    position: absolute;
+    bottom: 0;
+    width: 222px;
+    height: 222px;
+    border-radius: 50%;
+    background-color: #f87171;
+    overflow: hidden;
+}
+#spotlight div.right div.circle img {
+    width: 88%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+#spotlight div.right div.circle-container .semi-circle {
+    position: absolute;
+    top: calc(67% - 24px);
+    left: -17px;
+    width: 258px;
+    height: 143px;
+    border-radius: 0 0 123px 123px;
+    border: 1px solid #cbd5e1;
+    z-index: -1;
+    clip-path: inset(7px 0 0 0);
+}
+#spotlight div.right div.circle-container img.pop-out-img {
+    position: absolute;
+    width: 88%;
+    height: 51%;
+    top: 7px;
+    left: 0;
+    object-fit: cover;
+    object-position: center top;
+    z-index: -1;
+}
+#spotlight div.right div.circle-container:nth-child(2) {
+    top: 05px;
+    right: 72px;
+    left: auto;
+}
+#spotlight div.right div.circle-container:nth-child(2) div.circle {
+    background-color: #60a5fa;
+}
+#spotlight div.right div.circle-container:nth-child(2) div.semi-circle {
+    top: 108px;
+    left: 38px;
+    clip-path: inset(22px 0 0 0);
+    rotate: -105deg;
+}
+#spotlight div.right div.circle-container:nth-child(2) img.pop-out-img {
+    top: 39px;
+}
+#spotlight div.right div.circle-container:nth-child(3) {
+    top: auto;
+    left: auto;
+    bottom: 98px;
+    right: 70px;
+}
+#spotlight div.right div.circle-container:nth-child(3) div.circle {
+    background-color: #facc15;
+}
+#spotlight div.right div.circle-container:nth-child(3) div.circle img {
+    transform: rotateY(180deg) translateX(-28px);
+}
+#spotlight div.right div.circle-container:nth-child(3) div.semi-circle {
+    top: 150px;
+    left: 34px;
+    clip-path: inset(57px 0 0 0);
+    rotate: 302deg;
+}
+#spotlight div.right div.circle-container:nth-child(3) div.join-card {
+    position: absolute;
+    bottom: 24px;
+    left: -87px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+    padding: 12px;
+    z-index: 3;
+    background: #fff;
+    width: min-content;
+}
+#spotlight div.right div.circle-container:nth-child(3) div.join-card ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#spotlight
+    div.right
+    div.circle-container:nth-child(3)
+    div.join-card
+    ul
+    li:not(:first-child) {
+    margin-left: -17px;
+}
+#spotlight div.right div.circle-container:nth-child(3) div.join-card span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #0f172a;
+    display: block;
+}
+#spotlight div.right div.circle-container.dot::after {
+    position: absolute;
+    z-index: -2;
+    top: 70px;
+    left: -29px;
+    display: block;
+    content: "";
+    width: 68px;
+    height: 92px;
+    background-image: radial-gradient(#e2e8f0 2px, transparent 2px);
+    background-size: 12px 12px;
+    background-repeat: repeat;
+}
+#spotlight div.right div.circle-container.dot:nth-child(1):after {
+    top: 88px;
+    left: -37px;
+    rotate: -82deg;
+}
+#spotlight div.right div.diamond-container {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 46%;
+    left: 58%;
+}
+#spotlight div.right div.diamond-container div.diamond {
+    width: 12px;
+    height: 12px;
+    rotate: 45deg;
+    background-color: #fff;
+}
+
+@media all and (max-width: 1200px) {
+    #spotlight section.wrapper div.left h1 {
+        max-width: 90%;
+    }
+    #spotlight div.right div.circle-container {
+        left: 36px;
+        top: 102px;
+        scale: 0.7;
+    }
+    #spotlight div.right div.circle-container:nth-child(2) {
+        top: -11px;
+        right: 12px;
+    }
+    #spotlight div.right div.circle-container:nth-child(3) {
+        bottom: 24px;
+        right: 12px;
+    }
+}
+@media all and (max-width: 960px) {
+    #spotlight div.right div.diamond-container,
+    #spotlight div.right div.circle-container:nth-child(1),
+    #spotlight div.right div.circle-container:nth-child(2) {
+        display: none;
+    }
+    #spotlight div.right div.circle-container:nth-child(3) {
+        scale: 1;
+        position: static;
+    }
+    #spotlight div.right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (max-width: 640px) {
+    #spotlight div.right {
+        display: none;
+    }
+    #spotlight section.wrapper div.left {
+        width: 100%;
+    }
+    #spotlight section.wrapper div.left p,
+    #spotlight section.wrapper div.left h1 {
+        max-width: 100%;
+    }
+}

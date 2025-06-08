@@ -1,0 +1,666 @@
+div.left {
+    width: 66%;
+}
+#course div.intro-container {
+    background-color: #f8fafc;
+    padding: 40px 0 30px;
+}
+#course div.intro-container section.wrapper {
+    position: relative;
+}
+#course div.intro-container div.route {
+    margin-bottom: 40px;
+}
+#course div.intro-container div.route ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#course div.intro-container div.route ul li a {
+    font-size: 14px;
+    line-height: 150%;
+    color: #334155;
+}
+#course div.intro-container div.route ul li.active a {
+    color: #2563eb;
+}
+#course div.intro-container div.intro h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -2%;
+    margin-bottom: 17px;
+}
+#course div.intro-container div.intro p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #334155;
+    max-width: 78%;
+    margin-bottom: 24px;
+}
+#course div.intro-container div.intro div.course-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+#course div.intro-container div.intro div.course-details div.review {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#course
+    div.intro-container
+    div.intro
+    div.course-details
+    div.review
+    span.rating {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fec84b;
+}
+#course div.intro-container div.intro div.course-details div.review ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96px;
+}
+#course div.intro-container div.intro div.course-details div.review span.count,
+#course div.intro-container div.intro div.course-details span.details,
+#course div.intro-container div.intro div.languages span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #334155;
+}
+#course div.intro-container div.intro div.course-details span.pipe {
+    width: 1px;
+    height: 16px;
+    background-color: #334155;
+}
+#course div.intro-container div.intro div.author {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+#course div.intro-container div.intro div.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#course div.intro-container div.intro div.author span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #334155;
+}
+#course div.intro-container div.intro div.author span a {
+    color: #2563eb;
+}
+#course div.intro-container div.intro div.languages {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+#course div.intro-container div.card {
+    box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(226, 232, 240, 1);
+    border-radius: 16px;
+}
+#course div.intro-container div.card.right {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#course div.intro-container div.left div.card {
+    display: none;
+}
+#course div.intro-container div.card div.top,
+#course div.intro-container div.card div.bottom {
+    padding: 24px;
+}
+#course div.intro-container div.card div.top img {
+    width: 100%;
+}
+#course div.intro-container div.card div.top div.pricing {
+    margin: 32px 0 24px;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+#course div.intro-container div.card div.top div.pricing h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #0f172a;
+}
+#course div.intro-container div.card div.top div.pricing h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+#course div.intro-container div.card div.top div.pricing h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #16a34a;
+}
+#course div.intro-container div.card div.top a.button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: 1px solid #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #0f172a;
+}
+#course div.intro-container div.card div.top a.button.fill {
+    background-color: #020617;
+    color: #fff;
+    margin-bottom: 16px;
+}
+#course div.intro-container div.card div.bottom h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+#course div.intro-container div.card div.bottom ul {
+    margin: 0;
+    width: 84%;
+    flex-wrap: nowrap;
+}
+#course div.intro-container div.card div.bottom ul li {
+    border-radius: 50%;
+    border: 0;
+}
+#course > section.wrapper > div.left {
+    padding-top: 40px;
+}
+#course > section.wrapper div.left ul.tabs {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+#course > section.wrapper div.left ul.tabs li {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 18px 21px;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#course > section.wrapper div.left ul.tabs li.active {
+    background-color: #eff6ff;
+}
+#course > section.wrapper div.left ul.tabs li a {
+    font-size: 14px;
+    line-height: 150%;
+    color: #0f172a;
+}
+#course > section.wrapper div.left > hr.line {
+    margin-bottom: 24px;
+}
+#course > section.wrapper div.left div.content,
+#course > section.wrapper div.left div.content ul.details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#course > section.wrapper h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+}
+#course > section.wrapper div.left div.content ul.details li h4 {
+    margin-bottom: 4px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.instructor
+    h4 {
+    color: #2563eb;
+}
+#course > section.wrapper div.left p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #334155;
+    max-width: 92%;
+}
+#course > section.wrapper div.left div.content div.instructor-container,
+#course > section.wrapper div.left div.content div.syllabus {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    img.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    ul
+    li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    ul
+    li
+    img {
+    width: 24px;
+    height: 24px;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    ul
+    li
+    span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #0f172a;
+}
+#course
+    > section.wrapper
+    div.left
+    div.content
+    div.instructor-container
+    div.stats
+    ul
+    li
+    span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #0f172a;
+}
+#course > section.wrapper div.left div.content div.syllabus ul {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+#course > section.wrapper div.left div.content div.syllabus ul li {
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+#course > section.wrapper div.left div.content div.syllabus ul div.left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 50%;
+}
+#course > section.wrapper div.left div.content div.syllabus ul div.left h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #0f172a;
+}
+#course > section.wrapper div.left div.content div.syllabus ul div.right span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #334155;
+}
+#course > section.wrapper div.review-container {
+    margin: 24px 0 16px;
+}
+#course > section.wrapper div.review-container h4 {
+    margin-bottom: 24px;
+}
+#course > section.wrapper div.review-container div.review {
+    display: flex;
+    justify-content: space-between;
+}
+#course > section.wrapper div.review-container div.review > div.left,
+#course > section.wrapper div.review-container div.review div.right,
+#course > section.wrapper div.review-container div.review div.right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#course > section.wrapper div.review-container div.review > div.left {
+    width: 24%;
+}
+#course > section.wrapper div.review-container div.review div.left div.total {
+    display: flex;
+    gap: 8px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    div.total
+    div.left {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: max-content;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    div.total
+    div.left
+    h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    div.total
+    span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #334155;
+    align-self: flex-end;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    div.total
+    span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #334155;
+    align-self: flex-end;
+}
+#course > section.wrapper div.review-container div.review div.left ul.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    ul.legend
+    li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    ul.legend
+    li
+    ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.left
+    ul.legend
+    li
+    span {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 120%;
+    color: #334155;
+}
+#course > section.wrapper div.review-container div.review div.right {
+    width: 70%;
+}
+#course > section.wrapper div.review-container div.review div.right ul li {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+}
+#course > section.wrapper div.review-container div.review div.right ul li {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    gap: 12px;
+}
+#course > section.wrapper div.review-container div.review div.right ul li h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #0f172a;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right {
+    gap: 6px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right
+    div.top,
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right
+    div.top
+    div.rating {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right
+    div.top
+    div.rating {
+    gap: 4px;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right
+    div.top
+    span {
+    font-size: 14px;
+    line-height: 150%;
+    color: #334155;
+}
+#course
+    > section.wrapper
+    div.review-container
+    div.review
+    div.right
+    ul
+    li
+    div.right
+    p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #334155;
+}
+#course > section.wrapper div.review-container div.review div.right a.button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #0f172a;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #0f172a;
+    width: max-content;
+}
+#top-courses {
+    padding: 120px 0;
+    margin: 0;
+}
+
+@media all and (max-width: 1024px) {
+    div.card.right {
+        display: none;
+    }
+    div.left {
+        width: 100%;
+    }
+    #course div.intro-container div.left div.card {
+        display: block;
+        width: 65%;
+        align-self: center;
+        margin-bottom: 24px;
+    }
+    #course div.intro-container section.wrapper > div.left {
+        display: flex;
+        flex-direction: column;
+    }
+    #course div.intro-container div.card div.bottom ul {
+        justify-content: space-between;
+    }
+    #course div.intro-container div.card div.bottom ul li {
+        width: auto;
+    }
+    #course p {
+        max-width: 100% !important;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #course div.intro-container div.left div.card {
+        width: 80%;
+    }
+    #course > section.wrapper div.review-container div.review {
+        flex-direction: column;
+        gap: 24px;
+    }
+    #course > section.wrapper div.review-container div.review > div.left {
+        width: auto;
+    }
+    #course > section.wrapper div.review-container div.review div.right {
+        width: 100%;
+    }
+    #course > section.wrapper div.review-container div.review div.right ul li {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+@media all and (max-width: 640px) {
+    #course div.intro-container div.left div.card {
+        width: 90%;
+    }
+    #course div.intro-container div.intro div.course-details {
+        flex-direction: column;
+    }
+    #course > section.wrapper div.left ul.tabs {
+        flex-wrap: wrap;
+    }
+    #course > section.wrapper div.left ul.tabs li {
+        width: 20%;
+    }
+}
+@media all and (max-width: 480px) {
+    #course > section.wrapper div.left ul.tabs li {
+        width: 45%;
+    }
+}
